@@ -1,0 +1,68 @@
+/* Background image across all 4 pages and text font (Nile Khan) */
+body {
+    background: url("../images/MT_Background.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    margin: 0;
+}
+
+/* Headings kept dark for contrast (Nile Khan) */
+h1, h2, h3, h4, h5 {
+    color: #000;
+}
+
+/* Navigation bar styling shared across pages (Nile Khan)*/
+.sdg-navbar {
+    background-color: #0b6b8a;
+}
+
+.sdg-logo {
+    height: 50px;
+}
+
+/* Box styling used for all info panels (Nile Khan)*/
+.box {
+    background: #ffffffd9;
+    backdrop-filter: blur(3px);
+    border-radius: 8px;
+    padding: 18px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+/* Custom outlined button on the home page (Nile Khan)*/
+.blue-outline-btn {
+    color: #0b84a5;
+    border: 2px solid #0b84a5;
+}
+
+.blue-outline-btn:hover {
+    background-color: #0b84a5;
+    color: #fff;
+}
+
+/* Contact form error highlight styles (Moussa Toure) */
+.form-area .error {
+    border: 2px solid #e74c3c;
+    background: #fdecec;
+}
+
+/* Validation error text (Moussa Toure) */
+.error-text {
+    color: #e74c3c;
+    margin: 5px 0;
+}
+
+/* Success message styling (Moussa Toure) */
+.success-text {
+    color: #27ae60;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Responsive tweak for intro section (Nile Khan) */
+@media (max-width: 576px) {
+    .top-section {
+        margin-top: 10px;
+    }
+}
